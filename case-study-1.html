@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    link href="https://fonts.googleapis.com/css2?family=Stara:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="brand">UI/UX<span> Portfolio</span></a>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link active">About</a></li>
+                    <li><a href="work.html" class="nav-link">Work</a></li>
+                    <li><a href="cv.html" class="nav-link">CV</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="case-study">
+        <!-- Back to Work Link -->
+        <nav class="case-breadcrumb">
+            <a href="work.html" class="back-link">
+                <i class="fas fa-arrow-left"></i>
+                All Projects
+            </a>
+        </nav>
+
+        <div class="toc-container">
+            <input type="checkbox" id="toc-toggle" class="toc-checkbox">
+            <label for="toc-toggle" class="toc-button">
+              <span class="toc-icon"></span>
+              <span class="toc-current">Overview</span>
+            </label>
+            
+            <nav class="toc-modal">
+              <div class="toc-header">
+                <h4>Contents</h4>
+                <label for="toc-toggle" class="toc-close">&times;</label>
+              </div>
+              <ul class="toc-list">
+                <li><a href="#overview" class="active">1. Overview</a></li>
+                <li><a href="#research">2. Research</a></li>
+                <li><a href="#design">3. Design Process</a></li>
+                <li><a href="#results">4. Results</a></li>
+              </ul>
+            </nav>
+          </div>
+        
+    
+        <!-- Case Study Content -->
+        <article class="case-content">
+            <header class="case-header">
+                <h1>E-commerce Mobile App Redesign</h1>
+                <div class="case-meta">
+                    <div class="meta-item">
+                        <h4>Client</h4>
+                        <p>Fashion Retail Brand</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Role</h4>
+                        <p>Lead UX Designer</p>
+                    </div>
+                    <div class="meta-item">
+                        <h4>Duration</h4>
+                        <p>8 Weeks</p>
+                    </div>
+                </div>
+            </header>
+    
+            <!-- Main Content Sections -->
+            <section class="case-section">
+                <section id="overview" class="case-section">
+                <h2>The Challenge</h2>
+                <p class="lead-text">High cart abandonment rates due to complex checkout process...</p>
+                <div class="columns">
+                    <div class="col-text">
+                        <h3>Problem Statement</h3>
+                        <p>Users struggled with multi-step checkout process...</p>
+                    </div>
+                    <div class="col-image">
+                        <img src="images/case1-problem.jpg" alt="Original checkout flow">
+                    </div>
+                </div>
+            </section>
+            <!-- Researching -->
+        <div class="section">
+            <h2>🔍 Researching</h2>
+            <p>Conducted [user interviews/surveys/competitor analysis] to identify key pain points...</p>
+            <div class="img-container">
+                <img src="research-image.jpg" alt="User research notes">
+                <p class="img-caption">Competitor analysis and user interview insights</p>
+            </div>
+        </div>
+        <!-- Creating User Needs -->
+        <div class="section">
+            <h2>👥 Creating Your Average User’s Needs</h2>
+            <div class="grid">
+                <div>
+                    <h3>User Persona</h3>
+                    <img src="persona-image.jpg" alt="User persona">
+                </div>
+                <div class="highlight">
+                    <h3>Key Needs:</h3>
+                    <ul>
+                        <li>Need 1: [Example: Faster onboarding]</li>
+                        <li>Need 2: [Example: Simplified navigation]</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Analyzing -->
+        <div class="section">
+            <h2>📊 Analyzing</h2>
+            <p>Key findings from user journey mapping and pain points...</p>
+            <img src="journey-map.jpg" alt="User journey map">
+        </div>
+        <!-- Mapping Your Product -->
+        <div class="section">
+            <h2>🗺️ Mapping Your Product</h2>
+            <div class="grid">
+                <img src="sitemap.jpg" alt="Sitemap">
+                <img src="user-flow.jpg" alt="User flow diagram">
+            </div>
+        </div>
+        <!-- Framing Your Wires -->
+        <div class="section">
+            <h2>📐 Framing Your Wires</h2>
+            <p>Low-fidelity wireframes focusing on core functionality...</p>
+            <div class="grid">
+                <img src="wireframe-1.jpg" alt="Wireframe 1">
+                <img src="wireframe-2.jpg" alt="Wireframe 2">
+            </div>
+        </div>
+        <!-- Designing Your Product -->
+        <div class="section">
+            <h2>🎨 Designing Your Product</h2>
+            <div class="highlight">
+                <h3>Design System Highlights:</h3>
+                <ul>
+                    <li>Color palette: #0984e3 (primary), #2d3436 (text)</li>
+                    <li>Typography: Arial (system font for accessibility)</li>
+                </ul>
+            </div>
+            <img src="final-design.jpg" alt="High-fidelity design">
+        </div>
+         <!-- Prototyping -->
+         <div class="section">
+            <h2>🛠️ Prototyping</h2>
+            <div class="grid">
+                <div>
+                    <img src="prototype-flow.gif" alt="Prototype animation">
+                    <p>Interactive prototype demonstrating [key feature]</p>
+                </div>
+                <div class="highlight">
+                    <h3>Tools Used:</h3>
+                    <ul>
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- DING! All Done -->
+        <div class="ding">
+            <p>🎉 DING! All Done</p>
+            <p>Final outcome: [Result/metrics/feedback]</p>
+        </div>
+            <!-- Final CTA -->
+            <div class="case-cta">
+                <a href="case-study-2.html" class="next-case">
+                    Next Project: Health Dashboard Design
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </article>
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <h3 class="footer-logo">GI</h3>
+                <p class="footer-tagline">Designing intuitive digital experiences</p>
+            </div>
+    
+            <!-- Navigation Links -->
+            <nav class="footer-nav">
+                <div class="nav-section">
+                    <h4 class="nav-title">Explore</h4>
+                    <ul class="nav-links">
+                        <li><a href="work.html">Projects</a></li>
+                        <li><a href="about.html">Process</a></li>
+                        <li><a href="cv.html">Experience</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-section">
+                    <h4 class="nav-title">Connect</h4>
+                    <ul class="nav-links">
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="styleguide.html">Style Guide</a></li>
+                    </ul>
+                </div>
+            </nav>
+    
+            <!-- Social & Legal -->
+            <div class="footer-meta">
+                <div class="social-wrapper">
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://dribbble.com" target="_blank" rel="noopener noreferrer" aria-label="Dribbble">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </div>
+    
+                <div class="legal-info">
+                    <p>© 2025 Gorazd Ilievski<br>
+                    Built in Skopje, MK</p>
+                <button class= "back-to-top">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
